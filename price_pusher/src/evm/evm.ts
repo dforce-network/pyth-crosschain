@@ -267,6 +267,21 @@ export class EvmPricePusher implements IPricePusher {
           return;
         }
 
+        if (err.message.includes("Invalid parameters: tx")) {
+          console.log(
+            "Conflux RPC return error in error.data, probably due to the nonce"
+          );
+          return;
+        }
+
+        if (
+          err.message.includes("Transaction was not mined within 750 seconds")
+        ) {
+          console.log(err.message);
+          console.log("Skipping this push.");
+          return;
+        }
+
         console.error("An unidentified error has occured:");
         console.error(receipt);
         throw err;

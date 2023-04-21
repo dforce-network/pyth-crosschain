@@ -23,8 +23,3 @@
   time_difference: 60
   price_deviation: 0.5
   confidence_ratio: 1
-- alias: AAVE/USD
-  id: d6b3bc030a8bbb7dd9de46fb564c34bb7f860dead8985eb16a49cdc62f8ab3a5
-  time_difference: 60
-  price_deviation: 0.5
-  confidence_ratio: 1
