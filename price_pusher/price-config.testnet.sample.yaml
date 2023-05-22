@@ -1,25 +1,20 @@
 - alias: BTC/USD
   id: f9c0172ba10dfa4d19088d94f5bf61d3b54d5bd7483a322a982e1373ee8ea31b
-  time_difference: 60
-  price_deviation: 0.5
+  time_difference: 86400
+  price_deviation: 1
   confidence_ratio: 1
 - alias: ETH/USD
   id: ca80ba6dc32e08d06f1aa886011eed1d77c77be9eb761cc10d72b7d0a2fd57a6
-  time_difference: 60
-  price_deviation: 0.5
+  time_difference: 86400
+  price_deviation: 1
   confidence_ratio: 1
 - alias: USDT/USD
   id: 1fc18861232290221461220bd4e2acd1dcdfbc89c84092c93c18bdc7756c1588
-  time_difference: 60
+  time_difference: 86400
   price_deviation: 0.5
   confidence_ratio: 1
 - alias: USDC/USD
   id: 41f3625971ca2ed2263e78573fe5ce23e13d2558ed3f2e47ab0f84fb9e7ae722
-  time_difference: 60
-  price_deviation: 0.5
-  confidence_ratio: 1
-- alias: CFX/USD
-  id: eba2144f04b3af59382d92b8cbc3170008b4a2945a01f36e81f92dfdeb8cc519
-  time_difference: 60
+  time_difference: 86400
   price_deviation: 0.5
   confidence_ratio: 1
